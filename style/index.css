@@ -1,0 +1,22 @@
+@import './variables.css';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+	min-height: 100vh;
+	background-color: var(--very-dark-blue-bg);
+	font-family: var(--font-family);
+	padding: 3rem 8rem;
+}
+.intro__head{
+	color: var(--white-text);
+}
+.intro__subtext{
+	color: var(--dark-grayish-blue-text);
+	font-weight: var(--font-weight-lg);
+}
+.overview{
+	color: var(--white-text);
+}

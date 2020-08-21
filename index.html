@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style/index.css">
   
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
@@ -15,69 +16,128 @@
   </style>
 </head>
 <body>
-
-  Social Media Dashboard
-  Total Followers: 23,004
-
-  Dark Mode
-
-  
-
-  @nathanf
-  1987
-  Followers
-  12 Today
-
-  @nathanf
-  1044
-  Followers
-  99 Today
-
-  @realnathanf
-  11k
-  Followers
-  1099 Today
-
-  Nathan F.
-  8239
-  Subscribers
-  144 Today
-
-
-
-  Overview - Today
-
-  Page Views
-  87
-  3%
-
-  Likes
-  52
-  2%
-
-  Likes
-  5462
-  2257%
-
-  Profile Views
-  52k
-  1375%
-
-  Retweets
-  117
-  303%
-
-  Likes
-  507
-  553%
-
-  Likes
-  107
-  19%
-
-  Total Views
-  1407
-  12%
+  <main>
+    <div class="intro">
+      <div>
+        <h1 class="intro__head">Social Media Dashboard</h1>
+        <p class="intro__subtext">Total Followers: 23,004</p>
+      </div>
+      <Label>
+        Dark Mode
+        <input type="checkbox" name="" class="">
+        <span></span>
+      </Label>
+    </div>
+    <section>
+      <div class="card">
+        <p><img class="card__social" src="./images/icon-facebook.svg" alt="facebook icon" srcset=""> <span class="card__username">@nathanf</span></p>
+        <p class="card__amount">1987</p>
+        <p class="card__attr">Followers</p>
+        <p><img class="card__icon" src="./images/icon-up.svg" alt="arrow icon" srcset=""> <span class="card__timeline">12 Today</span> </p>
+      </div>
+      <div class="card">
+        <p><img class="card__social" src="./images/icon-twitter.svg" alt="facebook icon" srcset=""><span class="card__username">@nathanf</span></p>
+        <p class="card__amount">1044</p>
+        <p class="card__attr">Followers</p>
+        <p><img class="card__icon" src="./images/icon-up.svg" alt="arrow icon" srcset=""><span class="card__timeline">199 Today</span></p>
+      </div>
+      <div class="card">
+        <p><img class="card__social" src="./images/icon-instagram.svg" alt="facebook icon" srcset=""><span class="card__username">@realnathanf</span></p>
+        <p class="card__amount">11k</p>
+        <p class="card__attr">Followers</p>
+        <p><img class="card__icon" src="./images/icon-up.svg" alt="arrow icon" srcset=""><span class="card__timeline"></span>1099 Today</p>
+      </div>
+      <div class="card">
+        <p><img class="card__social" src="./images/icon-youtube.svg" alt="facebook icon" srcset=""><span class="card__username"> Nathan F. </span></p>
+        <p class="card__amount">8239</p>
+        <p class="card__attr">Subscribers</p>
+        <p><img class="card__icon" src="./images/icon-down.svg" alt="arrow icon" srcset=""><span class="card__timeline"> 144 Today</span></p>
+      </div>
+    </section>
+    <section>
+      <h2 class="overview"> Overview - Today</h2>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Page Views</p>
+          <img class="action__social" src="./images/icon-facebook.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">87</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-up.svg" alt="" srcset="">3%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Likes</p>
+          <img class="action__social" src="./images/icon-facebook.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">52</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-down.svg" alt="" srcset="">2%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Likes</p>
+          <img class="action__social" src="./images/icon-instagram.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">5462</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-up.svg" alt="" srcset="">2257%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Profile Views</p>
+          <img class="action__social" src="./images/icon-instagram.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">52k</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-up.svg" alt="" srcset="">1375%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Retweets</p>
+          <img class="action__social" src="./images/icon-twitter.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">117</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-up.svg" alt="" srcset="">303%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Likes</p>
+          <img class="action__social" src="./images/icon-twitter.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">507</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-up.svg" alt="" srcset="">553%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Likes</p>
+          <img class="action__social" src="./images/icon-youtube.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">107</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-down.svg" alt="" srcset="">19%</p>
+        </div>
+      </div>
+      <div class="action">
+        <div class="action__">
+          <p class="action__name">Total Views</p>
+          <img class="action__social" src="./images/icon-youtube.svg" alt="" srcset="">
+        </div>
+        <div class="action__">
+          <p class="action_amt">1407</p>
+          <p class="action__percent"><img class="action__icon" src="./images/icon-down.svg" alt="" srcset="">12%</p>
+        </div>
+      </div>
+    </section>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
