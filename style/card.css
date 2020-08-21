@@ -1,0 +1,64 @@
+.card{
+    background-color: var(--dark-desaturated-blue-card-bg); 
+    margin: 1rem;
+    border-radius: 0.3rem;
+    padding: 2rem 4.5rem;
+    text-align: center;
+    box-sizing: border-box;
+    width: 16.5rem;
+}
+.card:hover{
+    background-color: var(--dark-desaturated-blue-card-bg);
+    
+}
+.card-facebook{
+    border-top: 5px solid var(--facebook);
+}
+.card-twitter{
+    border-top: 5px solid var(--twitter);
+}
+.card-instagram{
+    width: 16.5rem;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to left,hsl(37, 97%, 70%) , hsl(329, 70%, 58%) ) 1;
+    border-image-width: 5px 0px 0px 0px;
+}
+.card-youtube{
+    border-top: 5px solid var(--youtube);
+}
+.card__social{
+    vertical-align: middle;
+    margin-right: 0.2rem;
+}
+.card__username{
+    color: var(--desaturated-blue-text);
+    font-size: small;
+    font-weight: var(--font-weight-lg);
+}
+.card__amount{
+    margin-top: 1.3rem;
+    color: var(--white-text);
+    font-size: 2.6rem;
+    font-weight: var(--font-weight-lg);
+}
+.card__attr{
+    color: var(--dark-grayish-blue-text);
+    font-weight: var(--font-weight-sm);
+    letter-spacing: 0.3rem;
+    margin-bottom: 1rem;
+}
+.card__icon{
+    vertical-align: middle;
+    margin-right: 0.2rem;
+}
+.card__timeline-up{
+    color:var(--lime-green);
+    font-size: 0.7rem;
+    font-weight: var(--font-weight-lg);
+}
+.card__timeline-down{
+    font-size: 0.7rem;
+    font-weight: var(--font-weight-lg);
+    color:var(--bright-red)
+}
