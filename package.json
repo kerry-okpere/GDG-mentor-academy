@@ -1,0 +1,22 @@
+{
+  "name": "gdg-mentor-academy",
+  "version": "1.0.0",
+  "description": "GDG Academy project - A minimalist Dashboard Design for managing social media reach,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerry-okpere/GDG-mentor-academy.git"
+  },
+  "author": "Kerry Okpere",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerry-okpere/GDG-mentor-academy/issues"
+  },
+  "homepage": "https://github.com/kerry-okpere/GDG-mentor-academy#readme",
+  "dependencies": {
+    "jest": "^26.4.1"
+  }
+}
