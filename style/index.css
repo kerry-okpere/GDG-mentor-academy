@@ -1,5 +1,6 @@
 @import './variables.css';
 @import './card.css';
+@import './actions.css';
 
 *{
     margin: 0;
@@ -9,7 +10,15 @@ body {
 	min-height: 100vh;
 	background-color: var(--very-dark-blue-bg);
 	font-family: var(--font-family);
+}
+.intro{
+	height: 17rem;
+	background-color: var(--very-dark-blue-top-bg-pattern);
+}
+.intro > div{
 	padding: 3rem 8rem;
+	display: flex;
+	justify-content: space-between;
 }
 .intro__head{
 	color: var(--white-text);
@@ -20,9 +29,28 @@ body {
 }
 .overview{
 	color: var(--white-text);
+	padding-bottom: 0.5rem ;
 }
 .card__container{
-	margin-left: -1rem;
+	padding: 3rem 8rem 0rem;
+	position: relative;
+	margin-bottom: -7rem;
+}
+.card__container > div{
+	position: relative;
 	display: flex;
 	flex-wrap: wrap;
+	justify-content: center;
+	top: -10rem;
+	margin-left: -1rem
+}
+.attribution{
+	color: var(--white-text);
+}
+.attribution > p > a > span{
+	font-size: x-large;
+	color: var(--desaturated-blue-text);
+}
+.attribution > p > a{
+	text-decoration: none;
 }

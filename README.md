@@ -3,6 +3,8 @@ GDG Academy project - A minimalist Dashboard Design for managing social media re
 Curriculum
 Html - basic
 Css-Basic
+css color (hsl, hex, color names, rbg)
+
 selectors
 Adding css to Html 
 https://www.w3schools.com/html/html_css.asp
