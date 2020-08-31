@@ -2,9 +2,7 @@
 
 GDG Academy project - A minimalist Dashboard Design for managing social media reach,
 
-## Welcome! 👋
-
-### Curriculum
+## Hi! 👋 Welcome to your Curriculum
 
 #### Version control 
 
@@ -45,3 +43,5 @@ Frontend dev learning guide - [here](https://www.notion.so/Frontend-Developer-Le
 Freecodecamp - [here](https://www.freecodecamp.org/learn/?messages=success%5B0%5D%3DSuccess%2521%2520You%2520have%2520signed%2520in%2520to%2520your%2520account.%2520Happy%2520Coding%2521) 
 
 javascript.info - [here](https://javascript.info/)
+
+codeacademy - [here](https://www.codecademy.com/learn/introduction-to-javascript)
